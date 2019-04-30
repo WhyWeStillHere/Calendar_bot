@@ -13,7 +13,7 @@ def get_credentials(chat_id):
     # Get credentials from file
     storage = Storage('./credentials/credentials-{}.dat'.format(chat_id))
     return storage.get()
-
+        
 
 def save_credentials(chat_id, credentials):
     # Save credentials to file
