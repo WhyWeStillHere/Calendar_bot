@@ -3,7 +3,7 @@ import app
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="Telegram bot that manage google calendar",
+    parser = argparse.ArgumentParser(description="Telegram bot that manage your google calendar",
                                      formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument("--token-path", default="./token.txt")
 
