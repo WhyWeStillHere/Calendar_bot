@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4aa8d64a-4bd1-4932-a03f-d87bef93addb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/handlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/handlers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/credentials/credentials-313413998.dat" beforeDir="false" afterPath="$PROJECT_DIR$/credentials/credentials-313413998.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +25,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/handlers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1656">
+            <state relative-caret-position="958">
               <caret line="92" column="58" lean-forward="true" selection-start-line="92" selection-start-column="58" selection-end-line="92" selection-end-column="58" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -206,8 +203,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Main run" />
       <item itemvalue="Python.Calendar testing" />
+      <item itemvalue="Python.Main run" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -224,7 +221,7 @@
       <workItem from="1556645773593" duration="2829000" />
       <workItem from="1556697072374" duration="133000" />
       <workItem from="1556894972955" duration="23000" />
-      <workItem from="1557050664484" duration="14893000" />
+      <workItem from="1557050664484" duration="15161000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.&#10;Authentication to Google API and one available request">
       <created>1556646010687</created>
@@ -233,11 +230,18 @@
       <option name="project" value="LOCAL" />
       <updated>1556646010687</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Make refactor of code. Add to new options for bot. Improve date display">
+      <created>1557068127274</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557068127275</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17981000" />
+    <option name="totallyTimeSpent" value="18249000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -294,7 +298,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit.&#10;Authentication to Google API and one available request" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit.&#10;Authentication to Google API and one available request" />
+    <MESSAGE value="Make refactor of code. Add to new options for bot. Improve date display" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make refactor of code. Add to new options for bot. Improve date display" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Calendar_bot$Main_run.coverage" NAME="Main run Coverage Results" MODIFIED="1557067592632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -348,7 +353,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/handlers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1656">
+        <state relative-caret-position="958">
           <caret line="92" column="58" lean-forward="true" selection-start-line="92" selection-start-column="58" selection-end-line="92" selection-end-column="58" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
