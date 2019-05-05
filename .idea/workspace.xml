@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4aa8d64a-4bd1-4932-a03f-d87bef93addb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/credentials/credentials-313413998.dat" beforeDir="false" afterPath="$PROJECT_DIR$/credentials/credentials-313413998.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/handlers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="958">
-              <caret line="92" column="58" lean-forward="true" selection-start-line="92" selection-start-column="58" selection-end-line="92" selection-end-column="58" />
+            <state relative-caret-position="-979">
+              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -44,15 +44,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="425" selection-start-column="425" selection-end-column="425" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Calendar Testing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -85,6 +76,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -114,16 +106,6 @@
             <path>
               <item name="Calendar_bot" type="b2602c69:ProjectViewProjectNode" />
               <item name="Calendar_bot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Calendar_bot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Calendar_bot" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Calendar_bot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Calendar_bot" type="462c0819:PsiDirectoryNode" />
-              <item name="credentials" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -203,8 +185,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Calendar testing" />
       <item itemvalue="Python.Main run" />
+      <item itemvalue="Python.Calendar testing" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -221,7 +203,7 @@
       <workItem from="1556645773593" duration="2829000" />
       <workItem from="1556697072374" duration="133000" />
       <workItem from="1556894972955" duration="23000" />
-      <workItem from="1557050664484" duration="15161000" />
+      <workItem from="1557050664484" duration="16118000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.&#10;Authentication to Google API and one available request">
       <created>1556646010687</created>
@@ -237,28 +219,34 @@
       <option name="project" value="LOCAL" />
       <updated>1557068127275</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Make refactor of code. Add to new options for bot. Improve date display">
+      <created>1557068226617</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557068226617</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18249000" />
+    <option name="totallyTimeSpent" value="19206000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1438849" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1438849" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22030237" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22030237" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32937366" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32937366" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
@@ -353,8 +341,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/handlers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="958">
-          <caret line="92" column="58" lean-forward="true" selection-start-line="92" selection-start-column="58" selection-end-line="92" selection-end-column="58" />
+        <state relative-caret-position="-979">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
