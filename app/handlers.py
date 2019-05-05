@@ -216,7 +216,10 @@ def upcoming_events(message):
     # Checking correctness of incoming message
     try:
         com_len = len('/near ')
-        number_of_events = int(message.text[com_len:])
+        if message.text[com_len:] == '':
+            number_of_events = MAX_NUM_EVENTS
+        else:
+            number_of_events = int(message.text[com_len:])
     except ValueError:
         bot.send_message(message.chat.id, 'Incorrect number, you should write only a number')
         return
@@ -249,7 +252,10 @@ def last_events(message):
     # Checking correctness of incoming message
     try:
         com_len = len('/last ')
-        number_of_events = int(message.text[com_len:])
+        if message.text[com_len:] == '':
+            number_of_events = MAX_NUM_EVENTS
+        else:
+            number_of_events = int(message.text[com_len:])
     except ValueError:
         bot.send_message(message.chat.id, 'Incorrect number, you should write only a number')
         return
@@ -321,8 +327,11 @@ def period_events(message):
     period = message.text[com_len:]
     start_date = period[:DATE_LEN]
     end_date = period[-DATE_LEN:]
-
+    
     # Checking correctness of incoming message
+    if start_date == '':
+        bot.send_message(message.chat.id, 'You should write correct date')
+        return
     try:
         start_date = maya.parse(start_date).datetime()
     except ParserError:
