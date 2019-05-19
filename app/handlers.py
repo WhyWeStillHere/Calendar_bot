@@ -11,6 +11,7 @@ import logging
 import maya
 from pendulum.parsing.exceptions import ParserError
 from dateutil.relativedelta import relativedelta
+import functools
 
 UTC_TIME = 'Z'
 TIMEZONE_LEN = 7
@@ -20,6 +21,7 @@ CREDENTIALS_FOLDER_PATH = './credentials'
 
 
 def bot_error_decorator(func):
+    @functools.wraps(func)
     def wrapper(message, *args, **kwargs):
         try:
             func(message, *args, **kwargs)
